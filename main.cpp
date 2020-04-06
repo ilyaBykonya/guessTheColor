@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
 {
     srand(time(0));
     
+    
     QApplication app(argc, argv);
     QWidget mainWidget;
     QHBoxLayout *mainLay = new QHBoxLayout;
